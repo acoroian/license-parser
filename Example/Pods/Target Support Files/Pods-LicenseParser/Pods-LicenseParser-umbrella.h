@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double LicenseParserVersionNumber;
-FOUNDATION_EXPORT const unsigned char LicenseParserVersionString[];
+FOUNDATION_EXPORT double Pods_LicenseParserVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_LicenseParserVersionString[];
 

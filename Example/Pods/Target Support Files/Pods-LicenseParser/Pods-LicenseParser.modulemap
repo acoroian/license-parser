@@ -1,0 +1,6 @@
+framework module Pods_LicenseParser {
+  umbrella header "Pods-LicenseParser-umbrella.h"
+
+  export *
+  module * { export * }
+}
