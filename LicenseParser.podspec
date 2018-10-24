@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "LicenseParser"
-  s.version          = "0.5.9"
+  s.version          = "0.6.0"
   s.summary          = "Driver's License Parser for US Licenses implementing the AAMVA PDF-417 standard."
 
 # This description is used to generate tags and improve search results.
@@ -23,11 +23,11 @@ Pod::Spec.new do |s|
   standard.
                        DESC
 
-  s.homepage         = "https://github.com/sealz/license-parser"
+  s.homepage         = "https://github.com/acoroian/license-parser"
   s.license          = 'MIT'
-  s.author           = { "Clayton LZ" => "clayton@hauz.io" }
-  s.source           = { :git => "https://github.com/sealz/license-parser.git", :tag => s.version.to_s }
+  s.author           = { "Adrian Coroian" => "acoroian@gmail.com" }
+  s.source           = { :git => "https://github.com/acoroian/license-parser.git", :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
   s.source_files = 'LicenseParser/Classes/**/*'
 end
